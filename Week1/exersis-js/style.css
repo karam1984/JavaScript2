@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    width: 100%;
+    height: 100vh;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white {
+    background-color: white;
+    width: 70%;
+    height: 50%;
+}
+
+.quoteContainer {
+    width: 90%;
+    margin: auto;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.quoteText {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#quote {
+    color: orange;
+    text-align: right;
+    font-size: 36px;
+}
+
+#author {
+    color: orange;
+    text-align: right;
+    font-size: 20px;
+    margin: 10px;
+}
+
+
+
+#button {
+    width: auto;
+    box-sizing: border-box;
+    height: 100%;
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    align-items: center;
+    padding: 5px;
+    
+
+}
